@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sleep 0.1
+echo >&3
+exec sleep 1
