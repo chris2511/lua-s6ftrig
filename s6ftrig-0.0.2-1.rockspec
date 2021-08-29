@@ -1,8 +1,8 @@
 package = "s6ftrig"
-version = "0.0.1-1"
+version = "0.0.2-1"
 source = {
    url = "git://github.com/chris2511/lua-s6ftrig",
-   tag = "v0.0.1"
+   tag = "v0.0.2"
 }
 description = {
    summary = "S6 fifodir library",
