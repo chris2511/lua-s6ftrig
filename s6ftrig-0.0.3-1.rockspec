@@ -1,8 +1,8 @@
 package = "s6ftrig"
-version = "0.0.2-1"
+version = "0.0.3-1"
 source = {
    url = "git://github.com/chris2511/lua-s6ftrig",
-   tag = "v0.0.2"
+   tag = "v0.0.3"
 }
 description = {
    summary = "S6 fifodir library",
@@ -18,7 +18,7 @@ and a string of one or more event characters.
 dependencies = {
    "lua >= 5.3"
 }
--- Then netlink interface is linux specific
+-- s6 is linux specific
 supported_platforms = { "linux" }
 
 external_dependencies = {
