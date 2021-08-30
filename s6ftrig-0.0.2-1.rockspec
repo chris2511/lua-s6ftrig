@@ -24,6 +24,9 @@ supported_platforms = { "linux" }
 external_dependencies = {
    LIBS6 = {
       header = "s6/ftrigr.h"
+   },
+   LIBSKARNET = {
+      header = "skalibs/skalibs.h"
    }
 }
 build = {
@@ -31,7 +34,7 @@ build = {
     modules = {
         s6ftrig = {
             sources = { "s6ftrig.c" },
-            libraries = { "s6" },
+            libraries = { "s6", "skarnet" },
         }
     }
 }
