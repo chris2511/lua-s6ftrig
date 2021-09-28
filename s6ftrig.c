@@ -16,7 +16,7 @@
 
 #include <s6/ftrigr.h>
 #include <s6/ftrigw.h>
-#include <s6/s6-supervise.h>
+#include <s6/s6.h>
 
 #define S6FTRIG_META "__s6_ftrig_meta"
 #define S6FTRIG_CLASS "__s6_ftrig_class"
