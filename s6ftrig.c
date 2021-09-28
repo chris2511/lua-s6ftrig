@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2020 Christian Hohnstädt
- * SPDX-License-Identifier: MPL-2.0
+ * Copyright (c) 2020 Christian Hohnstädt <christian@hohnstaedt.de>
+ * SPDX-License-Identifier: MIT
  */
 
 #include <lua.h>
